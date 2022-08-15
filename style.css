@@ -7,11 +7,11 @@ body{
     min-height: 100vh;
 }
 #logo{
-    width: 150px;
-    height: 150px;
+    width: 30%;
+    height: 40%;
     padding-left: 10%;
-    padding-top: 9%;
-
+    margin: auto 0;
+    cursor: pointer;
 }
 /* icon-language */
 #lang a{
@@ -21,8 +21,7 @@ body{
   }
 .logo-lang {
       height: 20px;
-      width: 23px;
-     
+      width: 23px; 
 }
 /* end  icon-language */  
 /* header style */
@@ -30,11 +29,13 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 110px;
-    padding: 30px 100px;
+    height: 100px;
     display: flex;
-    position: relative;
     justify-content: space-between;
+    padding: 30px 100px;
+
+    position: relative;
+
     align-items: center;
     background-image: url('images/bg-header.jpeg');
 }
@@ -42,18 +43,21 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    justify-content: space-around;
+  
 }
 nav ul li{
     list-style: none;
-    margin-left: 100px;
+    
    
 }
 nav {
-    margin-right: 50px;
+    
 }
 nav ul li a {
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 0 20px;
     color:  black;
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -100,24 +104,28 @@ p{
 figure{
     text-align: center;
 }
+
 /* end style all pragraph */
 .content{
     
-   display : flex;
-   flex-direction : row ;
-   justify-content : space-around;
-   flex-flow: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-left: 12%;
+
    
 }
 article{
-    width: 15%;
-    height: 10%;
+    width: 50%;
+    height: 50%;
     margin: 4%;
+
 }
 img{
     width: 60%;
     height: 60%;
     padding: 5%;
+
 }
 /* footer */
 footer{
