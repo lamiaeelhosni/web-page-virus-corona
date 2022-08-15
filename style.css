@@ -7,9 +7,10 @@ body{
     min-height: 100vh;
 }
 #logo{
-    width: 105px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     padding-left: 10%;
+    padding-top: 9%;
 
 }
 /* icon-language */
@@ -18,7 +19,7 @@ body{
     border-color: #E3CC00;
     border-width: 2px;
   }
-.myImage {
+.logo-lang {
       height: 20px;
       width: 23px;
      
@@ -44,12 +45,16 @@ nav ul {
 }
 nav ul li{
     list-style: none;
-    margin-left: 50px;
+    margin-left: 100px;
+   
+}
+nav {
+    margin-right: 50px;
 }
 nav ul li a {
     text-decoration: none;
-    padding: 10px 15px;
-    color:  rgb(42, 30, 94);
+    padding: 5px 5px;
+    color:  black;
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -101,7 +106,8 @@ figure{
    display : flex;
    flex-direction : row ;
    justify-content : space-around;
-   flex-flow : wrap;
+   flex-flow: wrap;
+   
 }
 article{
     width: 15%;
@@ -126,4 +132,3 @@ footer p {
     padding-top: 50px;
     padding: 40px,40px;
 }
-/* end style footer */
